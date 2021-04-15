@@ -4,8 +4,8 @@ KCP - A Fast and Reliable ARQ Protocol
 [![Powered][2]][1] [![Build Status][4]][5] 
 
 [1]: https://github.com/skywind3000/kcp
-[2]: http://skywind3000.github.io/word/images/kcp.svg
-[3]: https://raw.githubusercontent.com/skywind3000/kcp/master/kcp.svg
+[2]: https://github.com/skywind3000/kcp/raw/master/kcp.svg
+[2]: https://github.com/skywind3000/kcp/raw/master/kcp.svg
 [4]: https://api.travis-ci.org/skywind3000/kcp.svg?branch=master
 [5]: https://travis-ci.org/skywind3000/kcp
 
@@ -161,6 +161,7 @@ Both the use and configuration of the protocol is very simple, in most cases, af
 - [kcp-java](https://github.com/hkspirt/kcp-java)：Implementation of Java version of KCP protocol.
 - [kcp-netty](https://github.com/szhnet/kcp-netty)：Java implementation of KCP based on Netty.
 - [java-kcp](https://github.com/l42111996/java-Kcp): JAVA version KCP, based on netty implementation (including fec function)
+- [csharp-kcp](https://github.com/l42111996/csharp-kcp): csharp version KCP, based on dotNetty implementation (including fec function)
 - [kcp-go](https://github.com/xtaci/kcp-go): High-security GO language implementation of kcp, including simple implementation of UDP session management, as a base library for subsequent development.
 - [kcp-csharp](https://github.com/limpo1989/kcp-csharp): The csharp migration of kcp, containing the session management, which can access the above kcp-go server.
 - [kcp-rs](https://github.com/en/kcp-rs): The rust migration of KCP
@@ -170,7 +171,8 @@ Both the use and configuration of the protocol is very simple, in most cases, af
 - [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android): Shadowsocks for android has integrated kcptun using kcp protocol to accelerate shadowsocks, with good results
 - [kcpuv](https://github.com/elisaday/kcpuv): The kcpuv library developed with libuv, currently still in the early alpha phase.
 - [xkcptun](https://github.com/liudf0716/xkcptun): C language implementation of kcptun, embedded-friendly for [LEDE](https://github.com/lede-project/source) and [OpenWrt](https://github.com/openwrt/openwrt) projects.
-
+- [yasio](https://github.com/yasio/yasio): A cross-platform asynchronous socket library focus on any client application with kcp support, easy to use, API same with UDP and TCP, see [benchmark-pump](https://github.com/yasio/yasio/blob/master/benchmark.md).
+- [gouxp](https://github.com/shaoyuan1943/gouxp): Implementing a callback-based KCP development package with Go, with decryption and FEC support, is easy to use.
 
 # Protocol Comparison
 
@@ -192,7 +194,7 @@ For specifics please refer to: [Reliable Udp Benchmark](https://github.com/libin
 
 MMO Engine [SpatialOS](https://improbable.io/spatialOS) has a benchmark report on KCP/TCP/RakNet:
 
-![](https://raw.githubusercontent.com/skywind3000/kcp/master/images/spatialos-50.png)
+![](images/spatialos-50.png)
 
 for more details, please see the report itself:
 
